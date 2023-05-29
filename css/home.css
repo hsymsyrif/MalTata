@@ -1,0 +1,141 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+/* Page */
+
+/* Profile */
+.page {
+  text-decoration: none;
+  color: #000000;
+  font-size: 20px;
+}
+
+button {
+  padding: 0.5em 2.5em;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+  background: #e0e0e0;
+  color: white;
+  border: none;
+  border-radius: 0.6em;
+}
+
+#btn {
+  text-align: center;
+  display: flex;
+  width: 30rem;
+  padding-left: 55rem;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 6rem;
+}
+
+.userprofile {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 50%;
+  background-color: #e0e0e0;
+  width: 50px;
+}
+
+.userprof {
+  margin: 10rem;
+}
+
+form {
+  display: grid;
+  width: 40%;
+}
+
+form .simpan {
+  width: 5rem;
+  padding: 0.4rem 0;
+  background-color: #264466;
+}
+
+.btnContainer {
+  text-align: right;
+}
+
+input {
+  border: none;
+  border-bottom: 2px solid black;
+  height: 1rem;
+}
+
+input:focus {
+  outline: none;
+}
+
+/* Penomoran */
+.table-container {
+  margin-left: 10rem;
+}
+.table-heading {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.btn-page {
+  display: flex;
+  justify-content: space-between;
+}
+
+th {
+  background-color: rgb(85, 85, 85);
+  color: #fff;
+  font-weight: 400;
+  padding: 10px;
+}
+
+td {
+  background-color: rgb(206, 206, 206);
+  padding: 10px;
+  font-size: 12px;
+}
+
+.iconpage {
+  text-align: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+#btnsurat {
+  background-color: #264466;
+  padding: 10px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+/* Search */
+
+.searchbutton {
+  position: relative;
+}
+
+.search-icon {
+  position: absolute;
+  top: 58%;
+  left: 10rem;
+  transform: translateY(-50%);
+}
+
+.searchbtn {
+  margin-top: 2rem;
+  border: none;
+  outline: none;
+  border: 1px solid #000;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+/* Page */

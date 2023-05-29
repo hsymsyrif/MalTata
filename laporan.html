@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MailTata | Laporan Disposisi Surat</title>
+    <link rel="stylesheet" href="css/laporan.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  </head>
+  <body>
+    <!-- Topbar -->
+    <div class="topbar">
+      <a href="home.html"><img src="img/MailTata.png" alt="logo" width="70px" /></a>
+      <div class="profile">
+        <h4>Hi, User</h4>
+        <div class="dropdown">
+          <i class="fa-solid fa-user dropdown-icon"></i>
+          <div class="dropdown-content">
+            <a href="profile.html">Ganti Profile</a>
+            <a href="home.html">Kembali</a>
+            <a href="index.html">Keluar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Topbar -->
+
+    <!-- Sidebar -->
+    <nav>
+      <ul class="sidebar">
+        <li><a href="penomoran.html">Penomoran Surat</a></li>
+        <li><a href="suratmasuk.html">Surat Masuk</a></li>
+        <li><a href="suratkeluar.html">Surat Keluar</a></li>
+        <li><a href="laporan.html"><span>Laporan Disposisi Surat</span></a></li>
+      </ul>
+    </nav>
+    <!-- Sidebar -->
+
+    <div class="container">
+      <div class="table-container">
+        <h1 class="table-heading">Laporan Disposisi Surat</h1>
+        <div class="filterbutton">
+          <h4 class="titlefilter">Dari Tanggal</h4>
+          <button class="buttonfilter">05/05/2023</button>
+          <h4 class="titlefilter">Sampai Tanggal</h4>
+          <button class="buttonfilter">10/05/2023</button>
+          <h4 class="titlefilter">Jenis Surat</h4>
+        <div class="dropdown">
+          <button>-Pilih Salah Satu-</button>
+          <ul class="dropdown-content">
+            <li><a id="dropdownsurat" href="suratmasuk.html">Surat Masuk</a></li>
+            <li><a id="dropdownsurat" href="suratkeluar.html">Surat Keluar</a></li>
+          </ul>
+        </div>
+        </div>
+        <div class="btn-page">
+          <div class="btn-add">
+            <button id="btnsurat1"><a href="addsurat.html">Filter</a></button>
+            <button id="btnsurat2"><a href="addsurat.html">Hapus</a></button>
+            <button id="btnsurat3"><a href="addsurat.html">Cetak</a></button>
+          </div>
+          <div class="searchbutton">
+            <label for="searchInput">
+              <img src="img/search.svg" alt="" class="search-icon" width="20px" />
+            </label>
+            <input type="search" id="searchInput" class="searchbtn" placeholder="search" />
+          </div>
+        </div>
+        <table>
+          <tr>
+            <th>No. Surat</th>
+            <th>Tanggal Terima</th>
+            <th>Perihal</th>
+            <th>Dari</th>
+            <th>Kepada</th>
+            <th>Tanggal Surat</th>
+            <th>Tembusan</th>
+            <th>Aksi</th>
+          </tr>
+          <tr>
+            <td>Tittle Table Cell</td>
+            <td>Tittle Table Cell</td>
+            <td>Tittle Table Cell</td>
+            <td>Tittle Table Cell</td>
+            <td>Tittle Table Cell</td>
+            <td>Tittle Table Cell</td>
+            <td>Tittle Table Cell</td>
+            <td class="iconpage"><img src="img/print-solid.svg" alt="print" width="20px" /></td>
+          </tr>
+          <tr>
+            <td>Tittle Table Cell</td>
+            <td>Tittle Table Cell</td>
+            <td>Tittle Table Cell</td>
+            <td>Tittle Table Cell</td>
+            <td>Tittle Table Cell</td>
+            <td>Tittle Table Cell</td>
+            <td>Tittle Table Cell</td>
+            <td class="iconpage"><img src="img/print-solid.svg" alt="print" width="20px" /></td>
+          </tr>
+          <tr>
+            <td>Tittle Table Cell</td>
+            <td>Tittle Table Cell</td>
+            <td>Tittle Table Cell</td>
+            <td>Tittle Table Cell</td>
+            <td>Tittle Table Cell</td>
+            <td>Tittle Table Cell</td>
+            <td>Tittle Table Cell</td>
+            <td class="iconpage"><img src="img/print-solid.svg" alt="print" width="20px" /></td>
+          </tr>
+          <tr>
+            <td>Tittle Table Cell</td>
+            <td>Tittle Table Cell</td>
+            <td>Tittle Table Cell</td>
+            <td>Tittle Table Cell</td>
+            <td>Tittle Table Cell</td>
+            <td>Tittle Table Cell</td>
+            <td>Tittle Table Cell</td>
+            <td class="iconpage"><img src="img/print-solid.svg" alt="print" width="20px" /></td>
+          </tr>
+          <tr>
+            <td>Tittle Table Cell</td>
+            <td>Tittle Table Cell</td>
+            <td>Tittle Table Cell</td>
+            <td>Tittle Table Cell</td>
+            <td>Tittle Table Cell</td>
+            <td>Tittle Table Cell</td>
+            <td>Tittle Table Cell</td>
+            <td class="iconpage"><img src="img/print-solid.svg" alt="print" width="20px" /></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <script src="js/laporan.js"></script>
+  </body>
+</html>

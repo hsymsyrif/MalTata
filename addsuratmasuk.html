@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MailTata | Tambah Data Surat Masuk</title>
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/surat.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  </head>
+  <body>
+    <!-- Topbar -->
+    <div class="topbar">
+      <a href="home.html"><img src="img/MailTata.png" alt="logo" width="70px" /></a>
+      <div class="profile">
+        <h4>Hi, User</h4>
+        <div class="dropdown">
+          <i class="fa-solid fa-user dropdown-icon"></i>
+          <div class="dropdown-content">
+            <a href="profile.html">Ganti Profile</a>
+            <a href="home.html">Kembali</a>
+            <a href="index.html">Keluar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Topbar -->
+
+    <!-- Sidebar -->
+    <nav>
+      <ul class="sidebar">
+        <li><a href="penomoran.html">Penomoran Surat</a></li>
+        <li><a href="suratmasuk.html"><span>Surat Masuk</span></a></li>
+        <li><a href="suratkeluar.html">Surat Keluar</a></li>
+        <li><a href="laporan.html">Laporan Disposisi Surat</a></li>
+      </ul>
+    </nav>
+    <!-- Sidebar -->
+
+    <!-- Page -->
+    
+    <div class="container">
+      <h1 class="table-heading">Tambah Data Surat Masuk</h1>
+      <div class="tablelist">
+        <table class="table-container">
+          <!-- / -->
+          <tr>
+            <td>
+              <label class="title">Tanggal Surat</label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="text" class="inputform">
+            </td>
+          </tr>
+          <!-- / -->
+  
+          <!-- / -->
+          <tr>
+            <td>
+              <label class="title">Dari (Divisi/Perusahaan)</label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="text" class="inputform">
+            </td>
+          </tr>
+          <!-- / -->
+  
+          <!-- / -->
+          <tr>
+            <td>
+              <label class="title">Tanggal Terima</label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="text" class="inputform">
+            </td>
+          </tr>
+          <!-- / -->
+
+        </table>
+        <table class="table-container">
+          <!-- / -->
+          <tr>
+            <td>
+              <label class="title">No.Surat</label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="text" class="inputform">
+            </td>
+          </tr>
+          <!-- / -->
+  
+          <!-- / -->
+          <tr>
+            <td>
+              <label class="title">Kepada</label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="text" class="inputform">
+            </td>
+          </tr>
+          <!-- / -->
+  
+          <!-- / -->
+          <tr>
+            <td>
+              <label class="title">Perihal</label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="text" class="inputform">
+            </td>
+          </tr>
+          <!-- / -->
+
+        </table>
+    </div>
+    <div class="uploadfile">
+        <label>Upload File (Max 90mb)</label>
+        <input type="file">
+    </div>
+
+    <div class="btn-page">
+        <button class="submitadd"><a href="#">Submit</a></button>
+      <button class="submitadd"><a href="suratmasuk.html">Batal</a></button>
+      </div>
+    </div>
+    
+
+  </body>
+</html>
